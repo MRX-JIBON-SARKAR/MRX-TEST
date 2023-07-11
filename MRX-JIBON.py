@@ -56,7 +56,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python Hamii.py')
+    os.system('python MRX-JIBON.py')
 from bs4 import BeautifulSoup
 from datetime import date
 from datetime import datetime
@@ -242,13 +242,14 @@ logo = ("""
 \x1b[1;96m.o. 88P o888o o888bood8P'   `Y8bood8P'  o8o        `8
 \x1b[1;96m`Y888P              
 
-  \x1b[1;96m--------------------------------------------------
-  [~] AUTHOR   : JIBON SARKER
-  [~] FACEBOOK : MD JIBON ISLAM
-  [~] FACEBOOK : JIBON SARKAR
-  [~] TOOL     : BD RANDOM CLONE 
-  [~] VERSION  : \033[1;97m\033[1;45m0.40\033[1;0m\033[1;97m\033[38;5;46m
-  \x1b[1;96m----------------------------------------------""")
+  \033[38;5;46m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
+\033[38;5;46m┃ \x1b[38;5;196m√ADMIN\x1b[38;5;196m   :\x1b[1;96JIBON SARKAR                 \033[38;5;46m┃
+\033[38;5;46m┃ \x1b[1;96m√FREE    \x1b[38;5;196m: \033[33;1mTOOL                      \033[38;5;46m┃
+\033[38;5;46m┃ \033[33;1m√NETWORK \x1b[38;5;196m: \x1b[38;5;196m3G 4G                     \033[38;5;46m┃
+\033[38;5;46m┣━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┫
+\033[38;5;46m┃ \033[33;1mGITHUB  \x1b[38;5;196m: \x1b[38;5;208mJIBON-SARKAR   \033[38;5;46m┃\033[33;1m BD:RANDOM \033[38;5;46m┃
+\033[38;5;46m┃ \x1b[1;96mWATHSAPP\x1b[38;5;196m: \033[1;97m+8801865544636 \033[38;5;46m┃\033[1;97m\033[1;45mVer...0.41 \033[1;0m\033[1;97m\033[38;5;46m┃
+\033[38;5;46m╚━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━╝\033[1;37m\n""")
 
     
 #---------------------[LOOP MENU]---------------------#
