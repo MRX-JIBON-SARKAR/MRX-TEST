@@ -210,23 +210,8 @@ else:
     a = ltx
     tag = "AM"
 
-logo = ("""
-\x1b[1;96m   oooo ooooo oooooooooo.    .oooooo.   ooooo      ooo
-\x1b[1;96m   `888 `888' `888'   `Y8b  d8P'  `Y8b  `888b.     `8'
-\x1b[1;96m    888  888   888     888 888      888  8 `88b.    8
-\x1b[1;96m    888  888   888oooo888' 888      888  8   `88b.  8
-\x1b[1;96m    888  888   888    `88b 888      888  8     `88b.8
-\x1b[1;96m    888  888   888    .88P `88b    d88'  8       `888
-\x1b[1;96m.o. 88P o888o o888bood8P'   `Y8bood8P'  o8o        `8
-\x1b[1;96m`Y888P              
-
-  \x1b[1;96m--------------------------------------------------
-  [~] AUTHOR   : JIBON SARKER
-  [~] FACEBOOK : MD JIBON ISLAM
-  [~] FACEBOOK : JIBON SARKAR
-  [~] TOOL     : BD RANDOM CLONE 
-  [~] VERSION  : \033[1;97m\033[1;45m0.1\033[1;0m\033[1;97m\033[38;5;46m
-  \x1b[1;96m----------------------------------------------"""
+logo = ("""\x1b[1;37m
+Mrx Jibon 
 clear()
 os.system('xdg-open https://www.facebook.com/jibon.islam65653?mibextid=ZbWKwL')
 xxxx = str(len(ugen))
@@ -470,7 +455,8 @@ def freeq(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\33[1;37m[\x1b[1;92mMRX-JIBON\x1b[1;97m] \x1b[1;97m[\x1b[1;93m%s\x1b[1;97m]  \x1b[1;97m[\x1b[1;92mOK: %s\x1b[1;97m] \x1b[1;97m[\x1b[1;91mCP: %s\x1b[1;97m]'%(loop,len(ok),len(cp))), 
+        sys.stdout.write(f'\r\33[1;37m[\x1b[1;92mMRX-JIBON\x1b[1;97m] \x1b[1;97m[\x1b[1;93m%s\x1b[1;97m]  \x1b[1;97m[\x1b[1;92mOK: %s\x1b[1;97m] \x1b[1;97m[\x1b[1;91mCP: %s\x1b[1;97m]'%(loop,lenm
+ok),len(cp))), 
         sys.stdout.flush()
     except:
         pass
