@@ -151,9 +151,6 @@ def Jawnx(uid):
         hking = '~> 2006/2007'
     else:hking=''
     return hking
-
-#-----------------------[LOOP]-----------------------#
-###---[ AUTO CREATE UA & PROXY ]---###
 try:
     if n < 0 or n > 12:
         exit()
