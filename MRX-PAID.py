@@ -345,14 +345,14 @@ logo = ("""
 \x1b[1;96m      ╰╯╰╯╰┻╯╰━┻━╯╰━╯╰┫╰━━┻━━┻━━━┻━━━┻╯╱╰━╯
 \x1b[1;96m      ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╯                                              
   {RED}  ╔════════════════════════════════════════╗
-   {GREEN} ║{K}[{H}•{K}] {P}Author  {RED}  :{H} MRX JIBON                
-  {GREEN}  ║{K}[{H}•{K}] {P}Facebook {RED} : {H}MD JIBON ISLAM            
-  {GREEN}  ║{K}[{H}•{K}] {P}Whatsapp  {RED}: {H}+8801865544636          
-  {GREEN}  ║{K}[{H}•{K}] {P}Github   {RED} : {H}github.com/???   
-  {GREEN}  ║{K}[{H}•{K}] {P}Status    {RED}: {H}PREMIUM {P}                
-   {GREEN} ║{K}[{H}•{K}] {P}Network  {RED} : {H}3G{N}, {H}4G{N}/{H}5G{N}, {H}ON         
-   {GREEN} ║{K}[{H}•{K}] {P}Version{RED}   : {H}2.0.8{K} MAX {GREEN}              
-   {GREEN} ║{K}[{H}•{K}] {P}Tools   {RED}  : {H}F{M}/{H}R{M}/{H}G{M}/{H}N CLONING        
+   {GREEN} ║{K}[{H}•{K}] {P}Author  {RED}  :{H} jibon                 {GREEN}║
+  {GREEN}  ║{K}[{H}•{K}] {P}Facebook {RED} : {H}md......               {GREEN}║
+  {GREEN}  ║{K}[{H}•{K}] {P}Whatsapp  {RED}: {H}+8801841.....          {GREEN}║
+  {GREEN}  ║{K}[{H}•{K}] {P}Github   {RED} : {H}github.com/........    {GREEN}  ║
+  {GREEN}  ║{K}[{H}•{K}] {P}Status    {RED}: {H}PREMIUM {P}           {GREEN}     ║
+   {GREEN} ║{K}[{H}•{K}] {P}Network  {RED} : {H}3G{N}, {H}4G{N}/{H}5G{N}, {H}ON{GREEN}           ║
+   {GREEN} ║{K}[{H}•{K}] {P}Version{RED}   : {H}2.0.8{K} MAX {GREEN}              ║
+   {GREEN} ║{K}[{H}•{K}] {P}Tools   {RED}  : {H}F{M}/{H}R{M}/{H}G{M}/{H}N CLONING   {GREEN}      ║
    {RED} ╚════════════════════════════════════════╝ {P}"""                                            
 #---------------------[LOOP MENU]---------------------#
 agents=[]
