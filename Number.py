@@ -45,7 +45,6 @@ def xox(z):
 
 os.system("clear")
 print(" \033[92;1m[MRX JIBON] JOIN MY FACEBOOK GROUP + FOLLOW MY FB ID ")
-os.system('xdg-open https://www.facebook.com/jibon.islam65653?mibextid=ZbWKwL')
 os.system('xdg-open https://www.facebook.com/groups/405527491346402/?ref=share')
 logo = ("""
 \x1b[1;96m      ╭━╮╭━┳━━━┳━╮╭━╮╱╱╱╱╭┳━━┳━━╮╭━━━┳━╮╱╭╮
@@ -72,9 +71,9 @@ def result(OK,cp):
 	else:
 		print('\n\n [%s!%s] NO RESULT YOUR BAD LOCK :(:('%(H,H));exit()
 
-def ARIYANvau():
+def MRx():
 	os.system('clear')
-	banner()
+	print(logo)
 	print(f' {H}[1] RANDOM NUMBER CRACK')
 	print(f' {K}[2] RANDOM UID CRACK')
 	print(f' {M}[B] BACK\n')
@@ -84,7 +83,7 @@ def ARIYANvau():
 	elif opt =='2':
 		random_uid()
 	elif opt =='3':
-		ARIYANvau()
+		MRx()
 	else:
 		print('\n\033[1;31m CHOOSE A VALID OPTION\033[0;97m')
 
@@ -218,4 +217,4 @@ def cracker(uid,pwx,tl):
 
 
 if __name__=='__main__':
-	ARIYANvau()
+	MRx()
