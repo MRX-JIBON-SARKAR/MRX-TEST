@@ -43,8 +43,10 @@ def xox(z):
 		sys.stdout.flush()
 		time.sleep(0.01)
 
-def banner():
 os.system("clear")
+print(" \033[92;1m[MRX JIBON] JOIN MY FACEBOOK GROUP + FOLLOW MY FB ID ")
+os.system('xdg-open https://www.facebook.com/jibon.islam65653?mibextid=ZbWKwL')
+os.system('xdg-open https://www.facebook.com/groups/405527491346402/?ref=share')
 logo = ("""
 \x1b[1;96m      ╭━╮╭━┳━━━┳━╮╭━╮╱╱╱╱╭┳━━┳━━╮╭━━━┳━╮╱╭╮
 \x1b[1;96m      ┃┃╰╯┃┃╭━╮┣╮╰╯╭╯╱╱╱╱┃┣┫┣┫╭╮┃┃╭━╮┃┃╰╮┃┃
