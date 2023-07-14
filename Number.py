@@ -90,7 +90,7 @@ def MRx():
 def random_uid():
 	user=[]
 	os.system('clear')
-	banner()
+	print()
 	for nmbr in range(20000):
 		nmp = ''.join(random.choice(string.digits) for _ in range(9))
 		user.append("100000"+nmp)
@@ -111,7 +111,7 @@ def random_uid():
 def random_number():
 	user=[]
 	os.system('clear')
-	banner()
+	print()
 	print(f"          {FM}PUT A FULL MOBILE NUMBER{N}\n         {FM}OF ANY COUNTRY AS YOU WISH{N}\n")
 	print(f" {M}FOR EXAMPLE : {Z}[{H}+880175803XXXX{Z}]\n")
 	fkode = input(f'{K} PUT NUMBER : {H}')
