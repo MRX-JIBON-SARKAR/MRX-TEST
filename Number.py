@@ -98,7 +98,7 @@ def random_uid():
 	pwx = input(f' {B}PUT PASS : {H}').split(',')
 	with ThreadPool(max_workers=30) as zim:
 		os.system('clear')
-		banner()
+		print()
 		tl = str(len(user))
 		xox(f"{K} TOTAL IDS : {K}{tl}")
 		xox(f"{H} BRUTE HAS BEEN STARTED {N}")
@@ -129,7 +129,7 @@ def random_number():
 	psl = int(input(f" {B}PASS LENGHT : {H}"))
 	with ThreadPool(max_workers=30) as zim:
 		os.system('clear')
-		banner()
+		print()
 		tl = str(len(user))
 		xox(f"{K} TOTAL IDS : {K}{tl}")
 		xox(f"{H} BRUTE HAS BEEN STARTED {N}")
