@@ -46,20 +46,10 @@ from bs4 import BeautifulSoup
 print ('Tool Updated ')
 os.system("espeak \"Follow your facebook page\"")  
 os.system('xdg-open https://www.facebook.com/jibon.islam65653?mibextid=ZbWKwL/');time.sleep(1)
-print ('Tool Updated ')
-print ('Tool Updated ')
-print ('Tool Updated ')
-print ('Tool Updated ')
-print ('Tool Updated ')
-print ('Tool Updated ')
-print ('Tool Updated ')
-print ('Tool Updated ')
-print ('Tool Updated ')
-os.system('xdg-open https://www.facebook.com/groups/405527491346402/?ref=share')
 print (f"""
-     \33[33;1m██ \33[1;97m██ \33[33;1m██████ \33[1;97m██████ \33[33;1m███    ██  
-     \33[33;1m██ \33[1;97m██ \33[33;1m██   ██ \33[1;97m██████ \33[33;1m████   ██ 
-     \33[33;1m██ \33[1;97m██ \33[33;1m██████ \33[1;97m██    ██ \33[33;1m██ ██  ██ 
-\33[33;1m██   ██ \33[1;97m██ \33[33;1m██   ██ \33[1;97m██    ██ \33[33;1m██  ██ ██ 
- \33[33;1m█████ \33[1;97m██ \33[33;1m██████ \33[1;97m██████ \33[33;1m██   ████ 
+     \33[35;1m██ ██ ██████   ██████  ███    ██ 
+     \33[35;1m██ ██ ██   ██ ██    ██ ████   ██ 
+     \33[35;1m██ ██ ██████  ██    ██ ██ ██  ██ 
+\33[35;1m██   ██ ██ ██   ██ ██    ██ ██  ██ ██ 
+ \33[35;1m█████  ██ ██████   ██████  ██   ████ 
 """)
