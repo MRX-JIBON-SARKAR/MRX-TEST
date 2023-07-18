@@ -28,7 +28,7 @@ class jalan:
             time.sleep(0.009)
 
 ###----------[ IMPORT LIBRARY ]---------- ###
-import requests
+#import requests
 import bs4
 import sys
 import os
