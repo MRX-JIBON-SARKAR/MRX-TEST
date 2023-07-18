@@ -412,7 +412,7 @@ def main():
 
         
     
-def sh6():
+def main():
     user=[]
     
     os.getuid
@@ -460,7 +460,7 @@ def sh6():
     
 
     
-def sh7():
+def main():
     user=[]
     
     os.getuid
