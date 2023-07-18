@@ -18,7 +18,7 @@ from random import random as acak
 from random import choice as pilih
 from random import randint
 from bs4 import BeautifulSoup
-import requests as ress
+#import requests as ress
 from sys import exit as exit
 class jalan:
     def __init__(self, z):
