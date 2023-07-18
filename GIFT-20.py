@@ -39,7 +39,7 @@ import json
 import uuid
 import subprocess
 import marshal
-#import rich
+import rich
 import shutil
 import webbrowser
 from random import randint
@@ -318,20 +318,25 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-os.system('xdg-open https://www.facebook.com/groups/405527491346402/?ref=share')
-logo=("""  
-   \33[35;1m╱╱╭╮\33[34;1m╭━━╮\33[33;1m╭━━╮╱\33[1;97m╭━━━╮\33[31;1m╭━╮╱╭╮
-   \33[35;1m╱╱┃┃\33[34;1m╰┫┣╯\33[33;1m┃╭╮┃╱\33[1;97m┃╭━╮┃\33[31;1m┃┃╰╮┃┃
-   \33[35;1m╱╱┃┃╱\33[34;1m┃┃╱\33[33;1m┃╰╯╰╮\33[1;97m┃┃╱┃┃\33[31;1m┃╭╮╰╯┃
-   \33[35;1m╭╮┃┃╱\33[34;1m┃┃╱\33[33;1m┃╭━╮┃\33[1;97m┃┃╱┃┃\33[31;1m┃┃╰╮┃┃
-   \33[35;1m┃╰╯┃\33[34;1m╭┫┣╮\33[33;1m┃╰━╯┃\33[1;97m┃╰━╯┃\33[31;1m┃┃╱┃┃┃
-   \33[35;1m╰━━╯\33[34;1m╰━━╯\33[33;1m╰━━━╯\33[1;97m╰━━━╯\33[31;1m╰╯╱╰━╯
-\33[32;1m┌━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┐
-  ┏━[•] Author   : MD JIBON SARKER
-  ┗━[•] Facebook : Md Jibon Islam
-  ┏━[•] Tool     : FREE
-  ┗━[•] Version  : 0.1
-\33[32;1m└━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┘""")
+os.system('xdg-open https://youtube.com/@cyber-tech99/')
+logo= f"""  \033[1;34m
+    \033[1;34m █████  ██      ██ ███    ██ ██    ██ ██████   
+    \033[1;34m██   ██ ██      ██ ████   ██ ██    ██ ██   ██   
+    \033[1;34m███████ ██      ██ ██ ██  ██ ██    ██ ██████    
+    \033[1;34m██   ██ ██      ██ ██  ██ ██ ██    ██ ██   ██   
+    \033[1;34m██   ██ ███████ ██ ██   ████  ██████  ██   ██  
+        
+ \x1b[1;94m×××××××××××××××××××××××××××××××××××××××××××××××××
+ \x1b[1;94m★     \x1b[1;96m[✓] CREATED BY\33[0;m   :  \x1b[1;96mALINUR RAHMAN         \x1b[1;94m★
+ \x1b[1;94m★     \x1b[1;92m[✓] FACEBOK      : \x1b[1;34m ALINUR RAHMAN         \x1b[1;94m★
+ \x1b[1;94m★     \x1b[1;91m[✓] GITHUB       :  \x1b[1;91mALINUR RAHMAN         \x1b[1;94m★
+ \x1b[1;94m★     \x1b[1;96m[✓] TOOL STATUS  : \x1b[1;96m Random Cloning        \x1b[1;94m★
+ \x1b[1;94m★     \x1b[1;91m[✓] TEAM         :  \x1b[1;91mKST                   \x1b[1;94m★
+ \x1b[1;94m★     \x1b[1;96m[✓] TOOL VIRSION :  \x1b[1;96m0.0                   \x1b[1;94m★
+ \x1b[1;94m×××××××××××××××××××××××××××××××××××××××××××××××××
+ \x1b[1;94m★     \x1b[1;93m[•\x1b[1;93m]\x1b[1;92m PLZ SAPPORT ME BRO                    \033[1;94m★
+ \x1b[1;94m★     \x1b[1;93m[•\x1b[1;93m]\x1b[1;92m ALI TECHNOLOGY                        \033[1;94m★
+ \x1b[1;94m×××××××××××××××××××××××××××××××××××××××××××××××××"""
 
 
     
@@ -397,17 +402,17 @@ def main():
     sh = input("\033[0;97m[\033[38;5;208m?\033[0;97m]\033[0;97mCHOOSE : ")
     if sh =='1':
        os.system(' ')
-       Main()
+       sh6()
     if sh =='2':
        os.system(' ')
        sh7()
     if sh =='3':
-       os.system('xdg-open https://www.facebook.com/groups/405527491346402/?ref=share')
+       os.system('xdg-open https://www.facebook.com/profile.php?id=100000446995720')
        main()  
 
         
     
-def Main():
+def sh6():
     user=[]
     
     os.getuid
@@ -455,7 +460,7 @@ def Main():
     
 
     
-def Main():
+def sh7():
     user=[]
     
     os.getuid
@@ -570,4 +575,4 @@ def m(uid,pwx,tl):
 
 #---------------------[END MENU]---------------------#
 if __name__ == '__main__':
-    Main()
+    main()
