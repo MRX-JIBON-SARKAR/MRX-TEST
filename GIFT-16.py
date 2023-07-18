@@ -2,7 +2,7 @@
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
 import requests,bs4,json,os,sys,random,datetime,time,re
-import urllib3,rich,base64
+#import urllib3,rich,base64
 #os.system("xdg-open https://www.facebook.com/profile.php?id=100086442349803/")
 from rich.table import Table as me
 from rich.console import Console as sol
