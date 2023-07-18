@@ -402,7 +402,7 @@ def main():
     sh = input("\033[0;97m[\033[38;5;208m?\033[0;97m]\033[0;97mCHOOSE : ")
     if sh =='1':
        os.system(' ')
-       sh6()
+       main()
     if sh =='2':
        os.system(' ')
        sh7()
