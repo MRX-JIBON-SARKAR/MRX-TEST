@@ -384,7 +384,7 @@ def cek_apk(session,coki):
 
 
 #---------------------[MAIN CLONING DEF 2]---------------------#
-def main():
+def Main():
     os.system('clear')
     print(logo)
 
@@ -575,5 +575,5 @@ def m(uid,pwx,tl):
 
 #---------------------[END MENU]---------------------#
 if __name__ == '__main__':
-    main()
+    Main()
     
