@@ -402,7 +402,7 @@ def Main():
     sh = input("\033[0;97m[\033[38;5;208m?\033[0;97m]\033[0;97mCHOOSE : ")
     if sh =='1':
        os.system(' ')
-       sh6()
+       Main()
     if sh =='2':
        os.system(' ')
        sh7()
@@ -412,7 +412,7 @@ def Main():
 
         
     
-def main():
+def Main():
     user=[]
     
     os.getuid
