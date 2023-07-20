@@ -56,7 +56,7 @@ def main():
 	print(" \x1b[1;97m[3] \x1b[1;97mJoin telegram group   ")
 	print(" \x1b[1;98m[0] \x1b[1;92mExit")
 	print(47*'\033[92;1m-')
-	MUEOR🤬_select()
+	MUEOR_select()
 
 def MUEOR🤬_select():
 	MUEOR🤬 = input('\n\x1b[1;93m[+] Choose Option: \x1b[1;92m')
