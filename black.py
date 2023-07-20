@@ -150,7 +150,7 @@ def method1():
 	print('Ids saved in ok.txt,cp.txt')
 	print(54*'_')
 	input('\033[1;32m Press enter to back ')
-	MUEOR🤬_TRICKER()
+	MUEOR_TRICKER()
 	
 def mcrack(uid,pwx,tl):
 	#print(user)
