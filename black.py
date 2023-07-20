@@ -58,14 +58,14 @@ def main():
 	print(47*'\033[92;1m-')
 	MUEOR_select()
 
-def MUEOR🤬_select():
-	MUEOR🤬 = input('\n\x1b[1;93m[+] Choose Option: \x1b[1;92m')
-	if MUEOR🤬 == '':
+def MUEOR_select():
+	MUEOR= input('\n\x1b[1;93m[+] Choose Option: \x1b[1;92m')
+	if MUEOR== '':
 		print("\x1b[1;91mFill in correctly")
 		main()
-	elif MUEOR🤬 == '1':
-		MUEOR🤬_TRICKER()
-	elif MUEOR🤬 == '2':
+	elif MUEOR == '1':
+		MUEOR_TRICKER()
+	elif MUEOR== '2':
 		os.system('xdg-open https://www.facebook.com/mueor')
 		main()
 	elif MUEOR🤬 == '3':
@@ -79,7 +79,7 @@ def MUEOR🤬_select():
 		main()
 
    
-def MUEOR🤬_TRICKER():
+def MUEOR_TRICKER():
 	os.system('clear')
 	print(logo)
 	os.system('xdg-open https://www.facebook.com/profile.php?id=100007946797233')
@@ -94,7 +94,7 @@ def MUEOR🤬_TRICKER():
 		main()
 	else:
 		print('\n\033[1;31mChoose valid option\033[0;97m')
-		MUEOR🤬_KING()
+		MUEOR_KING()
 		
 def method():
 	os.system('clear')
