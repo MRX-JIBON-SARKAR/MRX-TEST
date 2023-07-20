@@ -68,10 +68,10 @@ def MUEOR_select():
 	elif MUEOR== '2':
 		os.system('xdg-open https://www.facebook.com/mueor')
 		main()
-	elif MUEOR🤬 == '3':
+	elif MUEOR== '3':
 		os.system('xdg-open https://t.me/mueorb')
 		main()
-	elif MUEOR🤬 == '0':
+	elif MUEOR== '0':
 		os.system('exit')
 	else:
 		print ('\x1b[1;91m[!] Please select a valid option')
@@ -111,7 +111,7 @@ def method():
 	elif opt =='2':
 		method2()
 	elif opt =='0':
-		MUEOR🤬_KING()
+		MUEOR_KING()
 	else:
 		print('\n\033[1;31mChoose valid option\033[0;97m')
 		method()
