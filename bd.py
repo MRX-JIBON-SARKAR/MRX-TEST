@@ -37,7 +37,7 @@ import json
 import uuid
 import subprocess
 import marshal
-import rich
+#import rich
 import shutil
 import webbrowser
 from random import randint
